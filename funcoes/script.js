@@ -83,4 +83,12 @@ function precisoIr(paisesVisitados) {
 console.log(precisoIr(40));
 
 
+function viagem(paisesVisitados) {
+    var calc = 193 - paisesVisitados
+    return `Eu ainda falto conhecer ${calc} paises`
+}
+
+console.log(viagem(50))
+
+
   
