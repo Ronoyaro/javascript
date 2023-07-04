@@ -62,3 +62,7 @@ console.log(+idade + 5); // retorna NaN.
 
 
 
+
+
+
+
