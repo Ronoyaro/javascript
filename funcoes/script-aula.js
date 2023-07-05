@@ -1,8 +1,8 @@
-function areaQuadrado(lado) {
-    return lado * lado;
+function areaQuadrado(lado) { //defino minha função chamada de areaQuadrado que possui o parâmetro lado
+    return lado * lado; //minha função retona a multiplicação entre os lados
 }
 
-console.log(areaQuadrado(2))
+console.log(areaQuadrado(2)) //quando eu passo no console o número 2, ele realiza a multiplicação que é a operação que está sendo realizada dentro da função
 
 function funcao(truly) {
     if (truly) {

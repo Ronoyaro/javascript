@@ -74,10 +74,10 @@ addEventListener('scroll', function(){
 
 function precisoIr(paisesVisitados) {
     var totalPaises = 193;
-    function jaFui(paisesVisitados) {
-        return `Já conheci ${paisesVisitados} países e ainda me faltam ${totalPaises - paisesVisitados} para conhecer.`
+    function jaFui(paisesVisitados) {  
+    return `Já conheci ${paisesVisitados} países e ainda me faltam ${totalPaises - paisesVisitados} para conhecer.`
     }
-    return jaFui(paisesVisitados);
+return jaFui(paisesVisitados);
 }
 
 console.log(precisoIr(40));
