@@ -6,13 +6,13 @@ console.log(areaQuadrado(2)) //quando eu passo no console o número 2, ele reali
 
 function funcao(truly) {
     if (truly) {
-        console.log(`${truly} é verdadeiro`)
+        console.log(`${truly} é do tipo verdadeiro`)
     } else {
-        console.log(`${truly} é falso`)
+        console.log(`${truly} é do tipo falso`)
     }
 }
 
-funcao(10)
+funcao()
 
 //function imc(peso, altura) {
     //console.log(peso / (altura ** 2));

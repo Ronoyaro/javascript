@@ -92,3 +92,6 @@ console.log(viagem(50))
 
 
   
+
+
+
