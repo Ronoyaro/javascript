@@ -6,7 +6,8 @@ var brasil = [1959, 1962, 1970, 1994, 2002];
 
 // Interaja com a array utilizando um loop, para mostrar
 // no console a seguinte mensagem, `O brasil ganhou a copa de ${ano}`
-console.log(`A ultima copa em que eu vi o Brasil ganhar foi a copa de ${brasil[4]}`)
+for (var br = 0; br < brasil.length; br++)
+    console.log(`O brasil ganhou a copa no ano de ${brasil[br]}`)
 
 // Interaja com um loop nas frutas abaixo e pare ao chegar em Pera
 var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
