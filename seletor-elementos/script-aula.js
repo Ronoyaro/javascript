@@ -16,10 +16,11 @@ console.log(gridSectionNodeList); //Me traz uma lista NodeList com as minhas cla
 //Para cada item da minha GridSectionNodeList agora irá possuir a classe Azul 
 //gridSectionNodeList é uma array-like então possui forEach
 
-gridSectionNodeList.forEach(function(gridItem, index){
-    gridItem.classList.add('azul')
-    console.log(gridItem, index)
-});
+gridSectionNodeList.forEach(function(gridItem, index, array) {
+    gridItem.classList.add('azul');
+    console.log(gridItem);
+})
+
 
 const gridSectionHTMLagoraEhArray = Array.from(gridSectionHTML);
 

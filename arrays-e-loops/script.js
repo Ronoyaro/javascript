@@ -11,7 +11,7 @@ for (var br = 0; br < brasil.length; br++)
 
 // Interaja com um loop nas frutas abaixo e pare ao chegar em Pera
 var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
-for (fruta = 0; 0 < frutas.length; fruta++) {
+for (let fruta = 0; 0 < frutas.length; fruta++) {
     console.log(frutas[fruta])
     if (frutas[fruta] === 'Pera') {
         break;
