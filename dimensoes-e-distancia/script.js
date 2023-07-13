@@ -18,7 +18,7 @@ function somaImg() {
     console.log(soma);
 }
 
-window.onload = function() {
+window.onload = function() { //aguarda tudo carregar para executar
     somaImg()
 };
 // Verifique se os links da página possuem
