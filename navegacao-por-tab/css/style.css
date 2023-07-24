@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+html {
+    behavior: smooth;
+}
+
 html.textomaior {
     font-size: 120%;
 }
