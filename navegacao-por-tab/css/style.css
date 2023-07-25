@@ -7,7 +7,7 @@
 }
 
 html {
-    behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 html.textomaior {
@@ -141,6 +141,7 @@ ul {
     margin-bottom: .5rem;
     color: #e54;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .faq-lista dt::before {
@@ -262,6 +263,17 @@ li > img {
     content: '↴ ';
     margin-left: 5px;
     
+}
+
+.js-accordion .first::after {
+    content: '⬏';
+    margin-left: 5px;
+}
+
+.js-accordion .first.ativo::after {
+    content: '↴';
+    margin-left: 5px;
+
 }
 
 .js-accordion dt.ativo::after {
