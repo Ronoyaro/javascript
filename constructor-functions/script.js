@@ -36,23 +36,23 @@ const bruno = new Pessoa('Bruno', 15);
   // removeClass(classe), remove a classe a todos os elementos
 
 function Dom(elemento) {
-  const element = document.querySelectorAll(elemento);
-  this.elements = element
+  const elementos = document.querySelectorAll(elemento);
+  this.elements = elementos
   this.addClass = function(classe) {
-    element.forEach((index) => {
-      index.classList.add(classe);
+    elementos.forEach((element) => {
+      element.classList.add(classe);
     });
   };
   this.removeClass = function(classe) {
-    element.forEach((index) => {
-      index.classList.remove(classe)
+    elementos.forEach((element) => {
+      element.classList.remove(classe)
     })
 
   }
 }
 
 
-const className = 'ativadissimo';
+const className = 'ativado';
 const teste = new Dom('li');
 
 teste.addClass(className);
