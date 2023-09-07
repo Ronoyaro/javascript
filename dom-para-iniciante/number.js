@@ -53,3 +53,19 @@ listaPrecos.forEach(value => {
 })
 
 console.log(total)
+
+
+const arrayNum = [20, 10, 5, 1, 9, 2, 3, 8]
+
+arrayNum.sort((a, b) => {
+  console.log(a, b)
+})
+
+// console.log(arrayNum)
+
+const carros = ['Ford', 'Parati', 'Honda'];
+
+carros.forEach((item, index, array) => {
+  array[index] = array[index].toUpperCase() //Map é melhor a ser utilizado, usando o return
+})
+
