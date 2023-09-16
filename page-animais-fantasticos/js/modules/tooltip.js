@@ -23,7 +23,7 @@ export default function toolTip() {
     const text = element.getAttribute('aria-label');
     tooltipBox.innerText = text
     document.body.appendChild(tooltipBox);
-    
+
     return tooltipBox; //o retorno é a div criada
   }
 
