@@ -84,4 +84,8 @@
 
 }
 
-
+@media (max-width: 700px) {
+  .modal {
+    min-width: 200px;
+  }
+}

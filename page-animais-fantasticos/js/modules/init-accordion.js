@@ -6,12 +6,12 @@ export default function initAccordion() {
  
 
   if (accordionList.length) {
-    accordionList[0].classList.add(dataSet);
-    accordionList[0].nextElementSibling.classList.toggle(dataSet);
+    accordionList[0].classList.add('ativo');
+    accordionList[0].nextElementSibling.classList.toggle('ativo');
 
     function accordionText() {
       this.classList.toggle(dataSet);
-      this.nextElementSibling.classList.toggle(dataSet);
+      this.nextElementSibling.classList.toggle('ativo');
     }
 
     accordionList.forEach(list => list.addEventListener('click', accordionText));

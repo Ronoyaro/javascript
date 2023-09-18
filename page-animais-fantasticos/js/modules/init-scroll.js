@@ -2,7 +2,7 @@ export default function initScrolling() {
   function animaScroll() {
     
     const sections = document.querySelectorAll('[data-scroll="scroll"]');
-    const windowCalc = window.innerHeight * 0.5;
+    const windowCalc = window.innerHeight * 0.8;
     if (sections.length) {
       sections.forEach(section => {
         const sectionClass = section.getBoundingClientRect().top - windowCalc;

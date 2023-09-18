@@ -48,11 +48,11 @@ dt.accordion::after {
   content: ' ⮥';
 }
 
-.js [data-accordion="accordion"] dd {
+[data-accordion="accordion"] dd {
   display: none;
 }
 
-[data-accordion="accordion"] dd.accordion {
+[data-accordion="accordion"] dd.ativo {
   display: block;
   animation: showText .5s forwards;
 }
