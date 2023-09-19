@@ -45,3 +45,6 @@ console.log(nomecompleto);
 var english = `Its' time`
 // Verifique o tipo da variável que contém o seu nome
 console.log(typeof nomecompleto);
+
+
+

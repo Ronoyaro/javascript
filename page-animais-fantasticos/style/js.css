@@ -44,7 +44,7 @@ dt::after {
   
 }
 
-dt.accordion::after {
+dt.ativo::after {
   content: ' ⮥';
 }
 
@@ -74,7 +74,7 @@ dt.accordion::after {
   transition: .4s;
 }
 
-.js [data-scroll="scroll"].scroll {
+.js [data-scroll="scroll"].ativo {
   opacity: 1;
   transform: translate(0, 0, 0);
 }

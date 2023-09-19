@@ -57,3 +57,6 @@ console.log(Object.getOwnPropertyNames(String.prototype))
 console.log(Object.getOwnPropertyNames(Array.prototype))
 
 
+
+
+

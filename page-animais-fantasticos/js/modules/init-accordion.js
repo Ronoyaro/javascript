@@ -10,7 +10,7 @@ export default function initAccordion() {
     accordionList[0].nextElementSibling.classList.toggle('ativo');
 
     function accordionText() {
-      this.classList.toggle(dataSet);
+      this.classList.toggle('ativo');
       this.nextElementSibling.classList.toggle('ativo');
     }
 
